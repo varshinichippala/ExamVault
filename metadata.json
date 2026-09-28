@@ -1,0 +1,6 @@
+{
+  "name": "ExamVault - Government Exam Preparation & Previous Papers",
+  "description": "Comprehensive portal for government exam preparation with downloadable previous year question papers, solutions, and syllabi for GATE, UPSC, SSC, Banking, Railway, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
