@@ -23,6 +23,7 @@ import { PaperPreviewModal } from './components/PaperPreviewModal';
 import { AddExamModal } from './components/AddExamModal';
 import { BookmarksModal } from './components/BookmarksModal';
 import { Footer } from './components/Footer';
+import { ChatbotWidget } from './components/ChatbotWidget';
 
 const STORAGE_KEY_PAPERS = 'examvault_papers_v1';
 const STORAGE_KEY_CATEGORIES = 'examvault_categories_v1';
@@ -389,6 +390,12 @@ export default function App() {
 
       {/* Formal Portal Footer */}
       <Footer onSelectCategory={handleSelectCategory} />
+
+      {/* n8n AI Chatbot Widget */}
+      <ChatbotWidget
+        currentCategory={activeCategory?.name}
+        activeYear={selectedYear}
+      />
     </div>
   );
 }
